@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Registration Form</title>
 </head>
 <body>
     <h1>Race Registration!</h1>
@@ -17,25 +17,29 @@
             <input type="text" id="lname" name="last_name">
             
             <p>Select a Race:</p>
-           <p>
-            <input type="radio" id="5k_run" name="5k_run" value="Fun Run 5k">
-            <label for="5k_run">Fun Run 5k</label>
-
-            <input type="radio" id="half_run" name="half_run" value="Half Marathon">
-            <label for="half_run"> Half Marathon</label>
-
-            <input type="radio" id="full_run" name="full_run" value="Full Marathon">
-            <label for="full_run">Full Marathon</label>
-
-           </p> 
+           <div>
+            <input type="radio" id="five_run" name="race" value="Fun Run 5k">
+            <label for="five_run">Fun Run 5k</label>
+</div>
+            <div>
+    <input type="radio" id="half_run" name="race" value="Half Marathon">
+    <label for="half_run"> Half Marathon</label>
+</div>
             
-            <p>
+        
+            <div>
+            <input type="radio" id="full_run" name="race" value="Full Marathon">
+            <label for="full_run">Full Marathon</label>
+<!--name must be the same so it shows that they are all part of the same data-->
+           </div> 
+            
+            <div>
                 <label for="email">Email</label>
             <input type="email" id="email" name="email" required>
 
             <label for="password">Password</label>
             <input type="password" id="password" name="password" required>
-            </p>
+            </div>
 
             <p>
                 <label for="age_group">Select Age Group</label>
@@ -51,3 +55,4 @@
     
 </body>
 </html>
+
