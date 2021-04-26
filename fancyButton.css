@@ -1,0 +1,28 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #264653;
+}
+
+/*why is this applied to body and not the button*/
+
+button {
+  font-family: "Original Surfer", cursive;
+  background: none;
+  color: #ee6c4d;
+  border: 2px solid;
+  padding: 1em 2em;
+  font-size: 1em;
+  transition: color 0.25s, border-color 0.25s, box-shadow 0.25s, trasnform 0.25s;
+}
+
+button:hover {
+  border-color: #ccff33;
+  color: white;
+  /* offset-x | offset-y | blur-radius | spread-radius | color */
+  box-shadow: 0 0.5em 0.5em -0.4em #ccff33;
+  transform: translateY(-0.25em);
+  cursor: pointer;
+}
