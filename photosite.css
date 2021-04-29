@@ -1,0 +1,15 @@
+img {
+  width: 30%;
+  margin: 1.666%;
+  /* margin: calc(10%/6); */
+}
+
+nav {
+  font-family: "Amatic SC", cursive;
+  font-size: 2.5em;
+  text-transform: uppercase;
+  border-bottom: 2px solid #3a3f38;
+  width: 30%;
+  margin-left: 1.666%;
+  padding: 0.5em 0;
+}
