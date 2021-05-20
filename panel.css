@@ -129,6 +129,24 @@ table {
   border-spacing: 0;
 }
 
+html {
+  box-sizing: border-box; /*What exactly does this do*/
+  font-family: "Open Sans" sans-serif;
+}
+
 body {
+  background-color: #a8dadc;
+  display: flexbox;
+  justify-content: center; /*how is this different from positions or using margins? Is this a common way to center content?*/
+  align-items: center;
+  min-height: 100vh;
+}
+
+.panel {
   background-color: #f1faee;
+}
+
+h1 {
+  color: blue;
+  font-size: x-large;
 }
