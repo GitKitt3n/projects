@@ -133,20 +133,18 @@ html {
   box-sizing: border-box; /*What exactly does this do*/
   font-family: "Open Sans" sans-serif;
 }
-
+/*with Flex  rules are applying to children*/
 body {
   background-color: #a8dadc;
-  display: flexbox;
-  justify-content: center; /*how is this different from positions or using margins? Is this a common way to center content?*/
-  align-items: center;
+  display: flex;
+  justify-content: center; /* Horizontal Applies to immediate children. how is this different from positions or using margins? Is this a common way to center content?*/
+  align-items: center; /*center*/
   min-height: 100vh;
 }
-
 .panel {
   background-color: #f1faee;
-}
-
-h1 {
-  color: blue;
-  font-size: x-large;
+  border-radius: 10px;
+  padding: 15px 25px;
+  width: 100%; /*% are always of the parent*/
+  max-width: 960px;
 }
